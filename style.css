@@ -1,38 +1,42 @@
-
 #color-palette {
-    text-align: center;
-    /* display: inline-block; */
-    margin-top: 20px;
-    margin-left: 20px;
+  text-align: center;
+
+  /* display: inline-block; */
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .color {
-    display: inline-block;
-    padding: 50px;
-    border: 1px solid black;
+  display: inline-block;
+  padding: 50px;
+  border: 1px solid black;
 }
 
-.pink {
-    background-color: pink;
+#black {
+  background-color: black;
 }
 
-.blue {
-    background-color: blue;
+#pink {
+  background-color: pink;
 }
 
-.red {
-    background-color: red;
+#blue {
+  background-color: blue;
+}
+
+#red {
+  background-color: red;
 }
 
 #pixel-board {
-    text-align: center;
+  text-align: center;
 }
+
 .pixel {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    padding: 40px;
-    border: 1px solid black;
-    background-color: white;
-    
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  padding: 40px;
+  border: 1px solid black;
+  background-color: white;
 }
