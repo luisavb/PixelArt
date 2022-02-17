@@ -32,6 +32,10 @@
   background-color: white;
 }
 
+.line {
+  background-color: white;
+}
+
 #options {
   display: inline-block;
 }
