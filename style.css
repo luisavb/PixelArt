@@ -28,6 +28,10 @@
   background-color: red;
 } */
 
+#options {
+  display: inline-block;
+}
+
 #pixel-board {
   text-align: center;
 }
