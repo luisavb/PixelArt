@@ -12,21 +12,25 @@
   border: 1px solid black;
 }
 
-/* .black {
+#black {
   background-color: black;
 }
 
-.pink {
-  background-color: pink;
+#first {
+  background-color: #56a3a6;
 }
 
-.blue {
-  background-color: blue;
+#second {
+  background-color: #da3e52;
 }
 
-.red {
-  background-color: red;
-} */
+#third {
+  background-color: #f2e94e;
+}
+
+#white {
+  background-color: white;
+}
 
 #options {
   display: inline-block;
