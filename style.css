@@ -1,3 +1,9 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #color-palette {
   text-align: center;
 
@@ -8,40 +14,24 @@
 
 .color {
   display: inline-block;
-  padding: 50px;
+  padding: 5vh 3vw;
+
   border: 1px solid black;
-}
-
-#black {
-  background-color: black;
-}
-
-#first {
-  background-color: #56a3a6;
-}
-
-#second {
-  background-color: #da3e52;
-}
-
-#third {
-  background-color: #f2e94e;
-}
-
-#white {
-  background-color: white;
 }
 
 .line {
   background-color: white;
+  line-height: 0;
 }
 
 #options {
-  display: inline-block;
+  display: flex;
+  /* margin: 20px; */
 }
 
 #pixel-board {
   text-align: center;
+  /* display: flex; */
 }
 
 .pixel {
@@ -51,8 +41,11 @@
   padding: 40px;
   border: 1px solid black;
   background-color: white;
+  line-height: 0;
 }
 
-/* .pcolor {
-  background-color: white;
-} */
+.input-group {
+  margin: 20px;
+}
+
+
