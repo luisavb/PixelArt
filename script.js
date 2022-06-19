@@ -37,8 +37,28 @@ function pixelCreator(size) {
   }
 }
 
+function morePixelCreator(size) {
+  pixelBoard.innerHTML = ''; 
+  for (let index = 0; index < size; index += 1) { // fazendo 5 linhas
+    const linha = document.createElement('div'); // criando 1 linha a cada repeticao do for
+    linha.className = 'line'; // definindo essa classe para tentar amenizar o erro de pintar as bordas
+    pixelBoard.appendChild(linha); // add a linha ao pixelBoard que já existe no HTML
+    for (let i = 0; i < size; i += 1) { // cada linha terá 5 pixeis, assim, é necessário outro laço
+      const pixel = document.createElement('div'); // criando o pixel(uma caixinha)
+      pixel.className = 'morePixel'; // add classe ao pixel
+      linha.appendChild(pixel); // definindo pixel como filho da linha criada dentro dessa repeticao
+      pixel.addEventListener('click', (event) => {
+        const selectedColor = document.querySelector('.selected');
+        const cor = selectedColor.style.backgroundColor;
+        const ponto = event.target;
+        ponto.style.backgroundColor = cor;
+      });
+    }
+  }
+}
+
 window.onload = () => {
-  pixelCreator(5);
+  pixelCreator(4);
   generateColors(4);
 
 };
@@ -73,7 +93,7 @@ buttonUserGenerateBoard.addEventListener('click', () => {
   if (boardSizeNumber === null
     || boardSizeNumber === 0
     || boardSizeNumber === '') {
-    alert('Board inválido!');
+    alert('Board inválido!'); 
   } else if (boardSizeNumber > 50) {
     pixelCreator(50);
   } else if (boardSizeNumber < 5) {
