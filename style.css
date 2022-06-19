@@ -1,13 +1,18 @@
 @import url('http://fonts.cdnfonts.com/css/serious-rounded');
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 499px) {
   body {
     text-align: center;
-    background-image: url("./dc3b2546601081.585ad762e70eb.jpg");
+    background-image: url("./qb5yyy278isz.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-position: center;  */
   }
   header {
     font-family: 'seriousr2b', sans-serif;
     text-align: center;
-    background-color: white;
+    text-shadow: 2px 2px rgb(60, 60, 235);
+
     margin-top: 10px; 
   }
   main {
@@ -17,7 +22,6 @@
   }
 
   #options {
-    
     display: flex;
     flex-direction: raw;
   }
@@ -32,24 +36,11 @@
     display: inline-block;
     width: 15vw;
     height: 15vw;
-    /* height:0;
-    width:20%;
-    padding: 5vh 3vw; 
-    padding-bottom:20%; */
-    
-  
     border: 1px solid black;
   }
  
-  
   #pixel-board {
-    /* margin: 2px; */
-    width: 80%;
-    /* display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 80%; */
-    
+    width: 80%; 
   }
   
   .line {
@@ -62,9 +53,7 @@
   .pixel {
     display: inline-block;
     aspect-ratio: 10/10;
-    width: 20vw;
-    /* height: 10vw; */
-    /* flex-shrink: 1; */
+    width: 20vw; 
     border: 1px solid black;
     background-color: white;
     line-height: 0;
@@ -76,9 +65,9 @@
   
 }
 
-@media screen and (min-width: 413px) {
+@media screen and (min-width: 500px) {
   body {
-    background-image: url("./1008904.png");
+    background-image: url("./Vaporwave-Background-Gif-1920x1080-Spicesncurry.com.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -86,7 +75,7 @@
   header {
     font-family: 'seriousr2b', sans-serif;
     text-align: center;
-    background-color: white;
+    text-shadow: 2px 2px rgb(60, 60, 235);
     margin-top: 10px; 
   }
   main {
@@ -111,7 +100,6 @@
     display: inline-block;
     aspect-ratio: 1/1;
     width: 5vw;
-    /* height: 10vw; */
     border: 1px solid black;
   }
  
