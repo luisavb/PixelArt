@@ -1,9 +1,9 @@
-# Online Store
+# Pixel Art
 
 ## Contexto
 Projeto do ínicio dos meus estudos em desenvolvimento web na Trybe, onde fiz um joguinho de pintar pixels.
 
-Link do GitHubPages - https://luisavb.github.io/PixelArt---Trybe/
+Link do GitHubPages - https://luisavb.github.io/PixelArt/
 
 ## Técnologias usadas
 
